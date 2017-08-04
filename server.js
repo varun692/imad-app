@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/varun', function (req, res) {
-  res.send('Article one requested and will be served here');
+  res.sendFile(path.join(__dirname, 'ui', 'Varun.html'));
 });
 
 app.get('/Hashini', function (req, res) {
