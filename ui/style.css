@@ -23,7 +23,7 @@ body {
  .personal {
                     max-width: 800px;
                     margin: 0 auto;
-                    color: rgb(255, 87, 34);
+                    color: red;
                     font-family: cambria;
                     padding-top: 50px;
                     padding-left: 20px;
